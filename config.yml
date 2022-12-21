@@ -75,7 +75,7 @@ params:
   brand: "#24c178"
   enableLastMod: true
   headerTextColor: white
-  logo: /img/proxeuse.png
+  logo: /img/logo-wit.png
   incidentPostsPerPage: 10
   googleAnalytics: UA-00000000-1
   customTabs:
