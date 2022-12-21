@@ -81,8 +81,6 @@ params:
   customTabs:
     - name: Uptime Statistics
       link: https://statping.proxeuse.com
-    - name: Example
-      link: pages/example-page
   alwaysKeepBrandColor: true
   disableComplexCalculations: false
   useLogo: true
