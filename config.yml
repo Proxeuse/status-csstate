@@ -34,31 +34,53 @@ params:
   skipSeconds: false
   useRelativeTime: true
   disableDarkMode: false
-  shortDateFormat: 15:04 UTC — Jan 2
+  shortDateFormat: Jan 2 — 15:04 UTC
   down: "#e60000"
   systems:
-    - name: Gateway
-      category: North Coast
-    - name: Backup Gateway
-      category: North Coast
-    - name: Website
-      description: The web frontend for the application.
-      category: Uncategorized
-      link: https://example.com/
-    - name: API
-      description: The guts of the application.
-      category: Uncategorized
-    - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and
-        video. It is reliant on our CDN.
-      category: Uncategorized
+    - name: Plesk - Falkenstein (DE) - fsn1_dc14_cloud
+      category: Servers
+    - name: Nextcloud Storage Backend - Falkenstein (DE) - FSN1-BX155 Online
+      category: Servers
+    - name: Proxeuse - Live Chat
+      category: Services
+    - name: Proxeuse - Customer Portal
+      category: Services
+    - name: Proxeuse - Documentation
+      category: Services
+    - name: Proxeuse - Downloads Portal
+      category: Services
+    - name: Proxeuse - Portainer
+      category: Services
+    - name: Proxeuse - Pterodactyl
+      category: Services
+    - name: API - Payments - Stripe
+      category: Vendors
+    - name: API - Payments - PayPal
+      category: Vendors
+    - name: API - Cloud Servers - Hetzner
+      category: Vendors
+    - name: API - Domain Registration - OpenProvider
+      category: Vendors
+    - name: DNS1 - Falkenstein (DE) - fsn1_dc14_cloud
+      category: DNS
+    - name: DNS2 - Helsinki (FI) - hel1_dc2_cloud
+      category: DNS
+    - name: DNS3 - Dusseldorf (DE) - dus1_hetz_dns
+      category: DNS
+    - name: DNS4 - Gunzenhausen (DE) - gun1_hetz_dns
+      category: DNS
+    - name: DNS5 - Frankfurt am Main (DE) - fra_hetz_dns
+      category: DNS
   dateFormat: Mon, 02 Jan 2006 15:04:05 UTC
-  brand: "#0a0c0f"
+  brand: "#24c178"
   enableLastMod: true
   headerTextColor: white
-  logo: logo.png
+  logo: /img/proxeuse.png
   incidentPostsPerPage: 10
   googleAnalytics: UA-00000000-1
+  customTabs:
+    - name: Uptime Statistics
+      link: https://statping.proxeuse.com
   alwaysKeepBrandColor: true
   disableComplexCalculations: false
   useLogo: true
@@ -68,12 +90,14 @@ params:
   disableIncidentHistory: false
   ok: "#008000"
   categories:
-    - name: North Coast
-      description: The main servers are located here.
+    - name: Servers
       closed: true
-    - name: Empty Category
-    - name: Uncategorized
-      untitled: true
+      untitled: false
+    - name: Services
+      closed: false
+    - name: Vendors
+    - name: DNS
+      closed: true
   description: We continuously monitor the status of our services and if there are
     any interruptions, a note will be posted here.
   enableCustomHTML: true
