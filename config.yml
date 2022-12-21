@@ -91,13 +91,14 @@ params:
   ok: "#008000"
   categories:
     - name: Servers
-      closed: true
+      closed: false
       untitled: false
     - name: Services
       closed: false
     - name: Vendors
-    - name: DNS
       closed: true
+    - name: DNS
+      closed: false
   description: We continuously monitor the status of our services and if there are
     any interruptions, a note will be posted here.
   enableCustomHTML: true
