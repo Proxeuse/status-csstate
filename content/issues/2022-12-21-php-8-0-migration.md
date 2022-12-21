@@ -4,7 +4,7 @@ title: PHP 8.0 migration
 date: 2023-11-19T21:00:57.577Z
 resolved: false
 draft: false
-informational: true
+informational: false
 pin: false
 resolvedWhen: 2023-11-18T23:00:00.000Z
 affected:
@@ -14,7 +14,7 @@ affected:
   - Proxeuse - Documentation
   - Proxeuse - Downloads Portal
   - Proxeuse - Pterodactyl
-severity: disrupted
+severity: notice
 ---
 *Security* - Due to the fact that PHP version 8.0 will be end of life on November 26th we will migrate all users to the latest PHP version. This will affect everyone on the Plesk server that has PHP enabled for their domain.
 
