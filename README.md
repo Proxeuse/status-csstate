@@ -1,3 +1,6 @@
+# ⚠️ Archive ⚠️
+This repository contains the [CState Status](https://github.com/cstate/cstate) page which was used at Proxeuse before january 2023. Since then, CState has been replaced with an instance of [Upptime](https://github.com/Proxeuse/status). The repository remains archived for an undefined time but will be deleted in the future.
+
 # cState Site v5.5
 
 This is the default cState status page website directory/folder.
